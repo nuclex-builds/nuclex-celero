@@ -1,0 +1,5 @@
+[submodule "build"]
+	path = build
+	url = ../../digitalinblue/Celero.git
+	branch = master
+	update = rebase
