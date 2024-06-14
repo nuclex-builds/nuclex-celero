@@ -47,9 +47,17 @@ endif()
 
 # -------------------------------------------------------------------------------------------------
 
-file(
-	COPY "${PROJECT_SOURCE_DIR}/TestFixture.h"
-	DESTINATION "${PROJECT_SOURCE_DIR}/build/include/celero/"
+# Want to see how great CMake is? This does NOTHING. It silently ignores this
+# entire line for some damn reason and then the console fills with build errors.
+#file(
+#	COPY "${PROJECT_SOURCE_DIR}/TestFixture.h"
+#	DESTINATION "${PROJECT_SOURCE_DIR}/build/include/celero/"
+#)
+
+configure_file(
+	"${PROJECT_SOURCE_DIR}/TestFixture.h"
+	"${PROJECT_SOURCE_DIR}/build/include/celero/"
+	COPYONLY
 )
 
 # -------------------------------------------------------------------------------------------------
