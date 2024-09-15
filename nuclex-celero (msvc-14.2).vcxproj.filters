@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{41f93295-bbce-4d4c-b942-4515c11b357d}</UniqueIdentifier>
+      <Extensions>md;txt;pdf</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="build\src\Archive.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Benchmark.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Callbacks.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Celero.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Console.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Distribution.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Exceptions.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Executor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\JUnit.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Memory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Print.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Experiment.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\ExperimentResult.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\ResultTable.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\TestVector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\TestFixture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\ThreadTestFixture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Timer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\UserDefinedMeasurementCollector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\Utilities.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="build\include\celero\Archive.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Benchmark.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Callbacks.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Celero.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\CommandLine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Console.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Distribution.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Exceptions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Executor.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Experiment.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\ExperimentResult.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Export.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Factory.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\FileReader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\GenericFactory.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\JUnit.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Memory.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Pimpl.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\PimplImpl.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Print.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\ResultTable.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Statistics.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\TestFixture.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\TestVector.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\ThreadLocal.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\ThreadTestFixture.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Timer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\UserDefinedMeasurement.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\UserDefinedMeasurementCollector.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\UserDefinedMeasurementTemplate.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\celero\Utilities.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
