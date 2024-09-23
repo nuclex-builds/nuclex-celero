@@ -240,6 +240,16 @@
     <ClCompile Include="build\src\UserDefinedMeasurementCollector.cpp" />
     <ClCompile Include="build\src\Utilities.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="TestFixture.h">
+      <FileType>Document</FileType>
+      <Command>COPY "$(ProjectDir)TestFixture.h" "$(ProjectDir)build\include\celero\"</Command>
+      <Message>Copying %(Filename) into build directory...</Message>
+      <Outputs>$(ProjectDir)build\include\celero\TestFixture.h</Outputs>
+      <LinkObjects>false</LinkObjects>
+      <TreatOutputAsContent>false</TreatOutputAsContent>
+    </CustomBuild>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
